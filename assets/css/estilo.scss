@@ -156,6 +156,10 @@ a {
             display: inline-block;
             margin-left: 10px;
             border-radius: 50%;
+            @media(max-width: 1200px) {
+                width: 15px;
+                height: 15px;
+            }
         }
     }
     a {
